@@ -1,0 +1,27 @@
+
+@media(min-width: 1px){
+    .login-title__title{
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 768px){
+    .login-title svg{
+        display: none;
+    }
+}
+
+@media(min-width: 992px){
+    /*.container{
+        max-width: 783px !important;
+    }*/
+}
+
+
+@media(min-width: 1024px){
+    .login-title__title{
+        font-size: 25px;
+    }
+
+
+}
