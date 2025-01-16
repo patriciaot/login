@@ -11,16 +11,18 @@
     }
 }
 
-@media(min-width: 992px){
-    /*.container{
-        max-width: 783px !important;
-    }*/
-}
-
 
 @media(min-width: 1024px){
     .login-title__title{
         font-size: 25px;
+    }
+
+}
+
+@media(min-width: 1440px){
+
+    .card-login{
+        width: 37%;
     }
 
 
