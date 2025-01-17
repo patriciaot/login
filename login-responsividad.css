@@ -3,6 +3,14 @@
     .login-title__title{
         font-size: 25px;
     }
+
+    .separator{
+        gap: 11px;
+    }
+
+    .separator .line{
+        width: 33%;
+    }
 }
 
 @media(min-width: 768px){
@@ -17,6 +25,45 @@
         font-size: 25px;
     }
 
+    .separator{
+        gap: 10px;
+    }
+
+    .separator .line{
+        width: 35%;
+    }
+
+
+}
+
+@media(min-width: 1100px){
+
+    .separator{
+        gap: 8px;
+    }
+
+
+}
+
+
+@media(min-width: 1115px){
+
+    .separator{
+        gap: 8px;
+    }
+
+    .separator .line{
+        width: 36%;
+    }
+}
+
+@media(min-width: 1300px){
+
+    .separator .line{
+        width: 38%;
+    }
+
+
 }
 
 @media(min-width: 1440px){
@@ -25,5 +72,24 @@
         width: 37%;
     }
 
+    .separator{
+        gap: 12px;
+    }
+
+    .separator .line{
+        width: 36%;
+    }
+
+}
+
+@media(min-width: 2560px){
+
+    .separator{
+        gap: 21px;
+    }
+
+    .separator .line{
+        width: 40%;
+    }
 
 }

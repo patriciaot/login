@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.card-login{
+.cardLogin{
     display: flex;
     background-color: transparent;
     border-radius: 11px;
@@ -108,17 +108,18 @@
 
 
 .separator {
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: center;
     color: #A0A1A7;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
     margin: 20px 0;
+    width: 100%;
 }
 
 .separator .line {
     display: block;
-    width: 29%;
+    width: 34%;
     height: 2px;
     border: 0;
     background-color: #CBCDDA;
@@ -139,6 +140,7 @@
 }
 
 .note {
-    font-size: 1rem;
     color: #01A0DC;
+    font-size: 1rem;
+    text-decoration: none;
 }
