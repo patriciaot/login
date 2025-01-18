@@ -14,7 +14,7 @@
 }
 
 @media(min-width: 768px){
-    .login-title svg{
+    .loginTitleContainer svg{
         display: none;
     }
 }

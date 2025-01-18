@@ -12,11 +12,11 @@
     width: 44%
 }
 
-.login--container{
+.loginContainer{
     width: 82%;
 }
 
-.login-title{
+.loginTitleContainer{
     align-items: center;
     display: flex;
     justify-content: center;
