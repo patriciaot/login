@@ -1,7 +1,10 @@
-
 @media(min-width: 1px){
-    .login-title__title{
+    .loginTitle{
         font-size: 25px;
+    }
+
+    .loginTitleContainer .closedLogin{
+        display: flex;
     }
 
     .separator{
@@ -13,15 +16,17 @@
     }
 }
 
+
+
 @media(min-width: 768px){
-    .loginTitleContainer svg{
+    .loginTitleContainer .closedLogin{
         display: none;
     }
 }
 
 
 @media(min-width: 1024px){
-    .login-title__title{
+    .loginTitle{
         font-size: 25px;
     }
 
@@ -30,7 +35,7 @@
     }
 
     .separator .line{
-        width: 35%;
+        width: 34%;
     }
 
 
@@ -68,7 +73,7 @@
 
 @media(min-width: 1440px){
 
-    .card-login{
+    .cardLogin{
         width: 37%;
     }
 
